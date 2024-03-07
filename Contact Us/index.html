@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="boxForm">
+        
+        <h1>Contactez-nous
+            <span class="logoTitre">
+                <img src="logoPlane.svg" alt="logo plane">
+            </span>
+        </h1>
+
+        <form>
+
+            <label for="email" class="labelEmail">Entrez votre Email</label>
+            <input type="email" name="email" id="email" class="emailInp" required maxlength="30" placeholder="Entrez votre Email">
+
+            <div class="flex2Inputs">
+
+                <div class="flexLeftInp">
+                    <label for="prenom" class="labelFlex">Entrez votre Prénom</label>
+                    <input type="prenom" name="prenom" id="prenom" class="flexInp" required maxlength="30" placeholder="Entrez votre Prénom">
+                </div>
+
+                <div class="flexRightInp">
+                    <label for="nom" class="labelFlex">Entrez votre Nom</label>
+                    <input type="nom" name="nom" id="nom" class="flexInp" required maxlength="30" placeholder="Entrez votre Nom">
+                </div>
+
+            </div>
+
+            <label for="inpSelect" class="labelSelect">Sélectionne ta catégorie</label>
+            <select name="select" id="inpSelect">
+                <option value="">Select...</option>
+                <option value="1">Retours</option>
+                <option value="2">Foire aux Question</option>
+                <option value="3">Commande</option>
+            </select>
+
+            <label for="txtArea" class="labelTxt">Dis nous quelque chose...</label>
+            <textarea name="txt" id="txtArea" cols="50" rows="10"></textarea>
+
+            <button>Envoyer</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
